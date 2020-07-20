@@ -134,8 +134,8 @@ module.exports = function(){
     // dataJSON['contact']['send_blocked'] = contact.send_blocked;
 
 
-    dataJSON['state']['vars'] = state.vars;
-    dataJSON['call']['vars'] = call.vars;
+    dataJSON['stateVars'] = state.vars;
+    dataJSON['callVars'] = call.vars;
 
     opts.method = "POST";
     opts.data = dataJSON;
