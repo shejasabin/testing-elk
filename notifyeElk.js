@@ -116,22 +116,22 @@ module.exports = function(){
 
     // Contact variables
     //dataJSON['contact']['last_message_id'] = contact.last_message_id;
-    dataJSON['contact'] ={};
-    dataJSON['contactVars'] = contact.vars;
-    dataJSON['contact']['name'] = contact.name;
-    dataJSON['contact']['project_id'] = contact.project_id;
-    dataJSON['contact']['id'] = contact.id;
-    dataJSON['contact']['conversation_status'] = contact.conversation_status;
-    dataJSON['contact']['time_updated'] = contact.time_updated;
-    dataJSON['contact']['incoming_message_count'] = contact.incoming_message_count;
-    dataJSON['contact']['last_outgoing_message_time'] = contact.last_outgoing_message_time;
-    dataJSON['contact']['phone_number'] =  contact.phone_number;
-    dataJSON['contact']['outgoing_message_count'] = contact.outgoing_message_count;
-    dataJSON['contact']['last_message_time'] = contact.last_message_time;
-    dataJSON['contact']['time_created'] = contact.time_created;
-    dataJSON['contact']['last_incoming_message_time'] = contact.last_incoming_message_time;
-    dataJSON['contact']['message_count'] = contact.message_count;
-    dataJSON['contact']['send_blocked'] = contact.send_blocked;
+    // dataJSON['contact'] ={};
+    // dataJSON['contactVars'] = contact.vars;
+    // dataJSON['contact']['name'] = contact.name;
+    // dataJSON['contact']['project_id'] = contact.project_id;
+    // dataJSON['contact']['id'] = contact.id;
+    // dataJSON['contact']['conversation_status'] = contact.conversation_status;
+    // dataJSON['contact']['time_updated'] = contact.time_updated;
+    // dataJSON['contact']['incoming_message_count'] = contact.incoming_message_count;
+    // dataJSON['contact']['last_outgoing_message_time'] = contact.last_outgoing_message_time;
+    // dataJSON['contact']['phone_number'] =  contact.phone_number;
+    // dataJSON['contact']['outgoing_message_count'] = contact.outgoing_message_count;
+    // dataJSON['contact']['last_message_time'] = contact.last_message_time;
+    // dataJSON['contact']['time_created'] = contact.time_created;
+    // dataJSON['contact']['last_incoming_message_time'] = contact.last_incoming_message_time;
+    // dataJSON['contact']['message_count'] = contact.message_count;
+    // dataJSON['contact']['send_blocked'] = contact.send_blocked;
 
 
     dataJSON['state']['vars'] = state.vars;
