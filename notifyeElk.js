@@ -88,7 +88,7 @@
 
 
 */
-module.export = function(){
+module.exports = function(){
     var url = 'https://elk.operations.oneacrefund.org:8080/telerivet';
     var opts = {};
     var dataJSON ={};
