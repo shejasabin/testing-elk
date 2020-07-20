@@ -94,7 +94,7 @@ module.exports = function(){
     var dataJSON ={};
 
     dataJSON['content'] = message.content;
-    dataJSON['from_number'] = mesage.from_number;
+    dataJSON['from_number'] = message.from_number;
     dataJSON['starred'] = message.starred;
     dataJSON['project_id'] = message.project_id;
     dataJSON['id'] = message.id;
