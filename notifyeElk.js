@@ -116,7 +116,8 @@ module.exports = function(){
 
     // Contact variables
     //dataJSON['contact']['last_message_id'] = contact.last_message_id;
-   // dataJSON['contact']['vars'] = contact.vars;
+    dataJSON['contact'] ={};
+    dataJSON['contact']['vars'] = contact.vars;
     dataJSON['contact']['name'] = contact.name;
     dataJSON['contact']['project_id'] = contact.project_id;
     dataJSON['contact']['id'] = contact.id;
